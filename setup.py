@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='signal_handler',
-    version='0.0.1',
+    version='0.0.2',
     packages=['signal_handler'],
     url='https://github.com/oleglpts/signal_handler',
     license='MIT',
