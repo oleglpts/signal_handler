@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='signal_handler',
-    version='0.0.4',
+    version='0.0.5',
     packages=['signal_handler'],
     readme="README.md",
     url='https://github.com/oleglpts/signal_handler',

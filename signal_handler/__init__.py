@@ -52,6 +52,26 @@ class SignalHandler:
         return self._terminated
 
     @property
+    def on_terminate(self):
+        """
+        Returns method, called on application terminate
+
+        :return: method, called on application terminate
+        :rtype: Callable[[], None]
+        """
+        return self._on_terminate
+
+    @on_terminate.setter
+    def on_terminate(self, value):
+        """
+        Set on_terminate property
+
+        :param value: method, called on application terminate
+        :type value Callable[[], None]
+        """
+        self._on_terminate = value
+
+    @property
     def message(self) -> str:
         """
         Termination message
